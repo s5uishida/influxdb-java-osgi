@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Java client for InfluxDB
+Bundle-SymbolicName: influxdb-java-osgi
+Bundle-Version: 2.15
+Automatic-Module-Name: influxdb-java-osgi
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.squareup.moshi;version="1.7.0",
+ okhttp3;version="3.14.1",
+ okhttp3.logging;version="3.14.1",
+ okio;version="1.15.0",
+ org.msgpack.core;version="0.8.17",
+ org.msgpack.value;version="0.8.17",
+ org.msgpack.value.impl;version="0.8.17",
+ retrofit2;version="2.5.0",
+ retrofit2.converter.moshi;version="2.5.0",
+ retrofit2.http;version="2.5.0"
+Export-Package: org.influxdb;version="2.15.0",
+ org.influxdb.annotation;version="2.15.0",
+ org.influxdb.dto;version="2.15.0",
+ org.influxdb.impl;version="2.15.0",
+ org.influxdb.msgpack;version="2.15.0",
+ org.influxdb.querybuilder;version="2.15.0",
+ org.influxdb.querybuilder.clauses;version="2.15.0",
+ org.influxdb.querybuilder.time;version="2.15.0"
